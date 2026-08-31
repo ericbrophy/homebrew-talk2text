@@ -8,6 +8,11 @@ cask "talk2text" do
   desc "Offline push-to-talk dictation using MLX Whisper"
   homepage "https://github.com/ericbrophy/talk2text"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   depends_on macos: :sonoma
   depends_on arch: :arm64
 
