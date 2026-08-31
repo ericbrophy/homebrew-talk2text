@@ -2,8 +2,8 @@ cask "talk2text" do
   version "0.1.0"
   sha256 "a2763ee2e685ae135de7b336f9c91b590eca79b663f89f70951f15deaae88d4b"
 
-  url "https://github.com/ericbrophy/talk2text/releases/download/v#{version}/talk2text-#{version}.dmg",
-      verified: "github.com/ericbrophy/talk2text/"
+  url "https://github.com/ericbrophy/homebrew-talk2text/releases/download/v#{version}/talk2text-#{version}.dmg",
+      verified: "github.com/ericbrophy/homebrew-talk2text/"
   name "talk2text"
   desc "Offline push-to-talk dictation using MLX Whisper"
   homepage "https://github.com/ericbrophy/talk2text"
